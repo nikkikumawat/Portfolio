@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    padding: 1rem 1rem;
+    background: url(../../public/Black\ Aesthetic\ Gradient\ Job\ Vacancy\ Graphic\ Designer\ Instagram\ Post\ \(1\).png) fixed;
+    height: 100vh;
+}
+.header .headerMain {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.headerMain .logo a span{
+   color: red;
+   font-size: 3rem;
+}
+
+.headerMain .logo a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.headerMain .menu{
+    padding: 1rem 1rem;
+}
+
+.headerMain .menu a{
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 22px;
+    color: white;
+}
+
