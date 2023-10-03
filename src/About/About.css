@@ -1,58 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 .About {
-    background-color: #34495e; 
-    color: #ffffff; 
-    padding: 40px; 
-    height: 100vh;
-  }
-  
- 
-  .aboutpage {
-    display: flex;
-   padding-top: 5rem;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto; 
-    justify-content: center;
-  }
-  
+  background-color: #34495e;
+  color: #ffffff;
+  padding: 40px;
+  /* height: 100vh; */
+}
 
-  .selfimage img {
-    width: 200px;
-    border-radius: 50%;
-    border: 3px solid #ffffff; 
-    box-shadow: 0 0 10px;
-    background-color: rgba(255, 255, 255, 0.5); 
-  }
-  
- 
-  .abouturself {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  
-  .abouturself h2 {
-    font-size: 28px;
-    margin-bottom: 10px; 
-  }
-  
-  .abouturself h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  
-  .abouturself p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
 
-  
+.aboutpage {
+  display: flex;
+  padding-top: 5rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.selfimage img {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.abouturself {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.abouturself h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.abouturself h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.abouturself p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.experience .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.experience .image img{
+   width: 300px;
+   height: 200px;
+}
